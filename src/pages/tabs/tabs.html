@@ -1,0 +1,24 @@
+<!--
+  Generated template for the TabsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<ion-menu>
+  <ion-header>
+    <ion-toolbar color="morado">
+      <ion-title>Registro</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+
+  </ion-content>
+</ion-menu>
+
+
+<ion-tabs color="primary" selectedIndex="0">
+  <ion-tab tabIcon="call" [root]="tab1" tabBadge="{{ calls }}" tabBadgeStyle="danger"></ion-tab>
+  <ion-tab tabIcon="chatbubbles" [root]="tab2" tabBadge="{{ messages }}" tabBadgeStyle="danger"></ion-tab>
+  <ion-tab tabIcon="musical-notes" [root]="tab3"></ion-tab>
+</ion-tabs>
